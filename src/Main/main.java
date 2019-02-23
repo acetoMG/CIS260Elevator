@@ -1,4 +1,4 @@
-package main;
+package Main;
 
 
 public class main {
@@ -6,8 +6,10 @@ public class main {
     
     
     public static void main(String[] args) {
-        SimulatorView SimView = new SimulatorView();
-        SimView.setVisible(true);
+        
+        Simulator Sim = new Simulator();
+        Sim.setVisible(true);
+        
     
     
     }

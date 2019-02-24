@@ -17,6 +17,8 @@ public class Simulator extends javax.swing.JFrame {
     public Simulator() {
         initComponents();
     }
+    private int floors, column;
+    private String buildingName;
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -66,7 +68,11 @@ public class Simulator extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    public void setPreferences(int floors, int column, String buildingName) {
+        this.floors = floors;
+        this.column = column;
+        this.buildingName = buildingName;
+    }
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         setVisible(false);

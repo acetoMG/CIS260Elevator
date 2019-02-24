@@ -20,7 +20,7 @@ public class Building {
     
     
     public void setSimulatorVisible() {
-        this.sim.setVisible(true);
+        sim.setVisible(true);
     }
     
     public int getFloors(){

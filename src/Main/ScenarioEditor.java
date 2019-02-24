@@ -10,7 +10,9 @@ package Main;
  * @author mgagn
  */
 public class ScenarioEditor extends javax.swing.JFrame {
-
+    
+    Building building = new Building();
+    
     /**
      * Creates new form ScenarioEditor
      */

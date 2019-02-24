@@ -16,12 +16,12 @@ public class Building {
     public Building() {
         
     }                
-    
-    
-    
-    public void setSimulatorVisible() {
-        sim.setVisible(true);
+    public void setBuildingPref() {
+        sim.setPreferences(this.floors, this.columns, this.buildingName);
     }
+    
+    
+
     
     public int getFloors(){
         return this.floors;

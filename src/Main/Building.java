@@ -6,16 +6,22 @@ package Main;
 public class Building {
     private int floors, columns;
     private String buildingName;
+    private Simulator sim = new Simulator();
+    
     
     public Building(int floors, int columns) {
         this.floors = floors;
         this.columns = columns;
     }
-                    
+    public Building() {
+        
+    }                
     
     
     
-    
+    public void setSimulatorVisible() {
+        this.sim.setVisible(true);
+    }
     
     public int getFloors(){
         return this.floors;

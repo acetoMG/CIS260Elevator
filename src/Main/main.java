@@ -1,6 +1,8 @@
 package Main;
 
 
+
+
 public class main {
 
     
@@ -8,7 +10,9 @@ public class main {
     public static void main(String[] args) {
         
         Menu menu = new Menu();
+        menu.setLocationRelativeTo(null);
         menu.setVisible(true);
+        
         
     
     

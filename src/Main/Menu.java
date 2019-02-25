@@ -5,19 +5,19 @@
  */
 package Main;
 
-import java.awt.event.MouseEvent;
-
 
 public class Menu extends javax.swing.JFrame {
 
-    ScenarioEditor editor = new ScenarioEditor();
-    Simulator sim = new Simulator();
+    private Simulator sim = new Simulator();
+    private ScenarioEditor editor = new ScenarioEditor();
     
     /**
      * Creates new form SImulator
      */
     public Menu() {
         initComponents();
+        this.editor.setLocationRelativeTo(null);
+        this.sim.setLocationRelativeTo(null);
     }
 
     /**

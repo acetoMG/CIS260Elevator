@@ -16,6 +16,7 @@ public class Stats extends javax.swing.JFrame {
      */
     public Stats() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**

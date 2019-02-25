@@ -1,12 +1,15 @@
 
 package Main;
 
+import java.util.Map;
+
 
 
 public class Building {
     private int floors, columns;
     private String buildingName;
     private Simulator sim = new Simulator();
+    
     
     
     public Building(int floors, int columns) {
